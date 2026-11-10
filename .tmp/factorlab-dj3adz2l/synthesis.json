@@ -1,0 +1,22 @@
+{
+  "method": "ic_half_life",
+  "window_used": 12,
+  "half_life": 12.0,
+  "allow_short": false,
+  "weights": {
+    "f1": 0.07248323612163182,
+    "f2": 0.5514784639781142,
+    "f3": 0.37603829990025395
+  },
+  "weight_sum": 1.0,
+  "warnings": [],
+  "rolling_weight_stability": {
+    "n_changes": 18,
+    "mean_l1_turnover": 0.182702461625587
+  },
+  "source_rows": 30,
+  "caveats": [
+    "权重只描述该 IC 历史窗口，不是最优配置",
+    "非做空模式下用「负权重截断后重新归一」近似正权重约束，不是求解带约束优化问题"
+  ]
+}

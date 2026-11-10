@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-11-10T07:58:04+00:00",
+  "returns_csv": "/Users/jgs/WorkBuddy/2026-11-09-18-14-11/github-review/merrill-clock-factor-regression/.tmp/factorlab-kd7nlj16/returns.csv",
+  "return_column": "net_return",
+  "factors_source": "local_csv",
+  "maxlags": 3,
+  "use_correction": false,
+  "risk_free": "supplied",
+  "nobs": 60,
+  "sample_start": "2015-01-31",
+  "sample_end": "2019-12-31",
+  "alignment_note": "exact date match",
+  "dropped_incomplete_rows": 0,
+  "rsquared": 0.8867525807254585,
+  "factor_names": [
+    "Mkt-RF",
+    "SMB",
+    "HML"
+  ],
+  "coefficients": {
+    "const": {
+      "coef": 0.0014986820398652457,
+      "t": 1.2147186420063598,
+      "p": 0.22447341995661318
+    },
+    "Mkt-RF": {
+      "coef": 0.7866567834178948,
+      "t": 22.29317451053768,
+      "p": 4.3036837164753075e-110
+    },
+    "SMB": {
+      "coef": 0.051570978982611274,
+      "t": 1.022688713248982,
+      "p": 0.30645504959373215
+    },
+    "HML": {
+      "coef": -0.03159132646340863,
+      "t": -0.570801968611943,
+      "p": 0.5681338883446732
+    }
+  },
+  "interpretation": "The intercept and factor loadings describe this historical sample; they are not forecasts or causal effects."
+}

@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-11-10T07:57:59+00:00",
+  "returns_csv": null,
+  "return_column": "net_return",
+  "factors_source": "synthetic_demo",
+  "maxlags": 3,
+  "use_correction": false,
+  "risk_free": "supplied",
+  "nobs": 120,
+  "sample_start": "2015-01-31",
+  "sample_end": "2024-12-31",
+  "alignment_note": "exact date match",
+  "dropped_incomplete_rows": 0,
+  "rsquared": 0.6598536480769905,
+  "factor_names": [
+    "Mkt-RF",
+    "SMB",
+    "HML",
+    "RMW",
+    "CMA"
+  ],
+  "coefficients": {
+    "const": {
+      "coef": 0.00194723947079044,
+      "t": 1.058554398054492,
+      "p": 0.2898027643219725
+    },
+    "Mkt-RF": {
+      "coef": 0.6166162157038642,
+      "t": 13.352799069461394,
+      "p": 1.1408034309547206e-40
+    },
+    "SMB": {
+      "coef": 0.143761567374956,
+      "t": 2.4552261989666597,
+      "p": 0.01407959629659786
+    },
+    "HML": {
+      "coef": -0.11009737311644752,
+      "t": -1.9046564252771037,
+      "p": 0.05682474672744494
+    },
+    "RMW": {
+      "coef": -0.04807990189431465,
+      "t": -0.5970350185323031,
+      "p": 0.5504840008376208
+    },
+    "CMA": {
+      "coef": 0.11179758478565949,
+      "t": 1.5879915715362658,
+      "p": 0.11228824502985182
+    }
+  },
+  "interpretation": "The intercept and factor loadings describe this historical sample; they are not forecasts or causal effects."
+}
